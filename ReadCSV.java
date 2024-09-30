@@ -6,7 +6,7 @@ import java.util.List;
 import java.time.format.DateTimeFormatter;
 
 
-public class ReadCSV {
+public class ReadCSV implements FileRead {
     private List<Transaction> transactions = new ArrayList<>();
     private DateTimeFormatter formatter=DateTimeFormatter.ofPattern("yyyy-MM-dd");
     
