@@ -6,7 +6,7 @@ import java.io.File;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-public class ReadXML {
+public class ReadXML implements FileRead {
     private List<Transaction> transactions = new ArrayList<>();
     public void ReadFromFile(){
          try {
